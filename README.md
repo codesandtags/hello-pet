@@ -8,15 +8,17 @@ First of all I'm an animal lover and I have a lot to be thankful for the pets an
 
 I want to connect those pets fundations and get more people involved to change the world for good.
 
+## Technologies used
 
+- Gatsby
 
 ## Features
 
-[ ] Allow to get data from Google Sheets.
-[ ] Allow connect social networks
-[ ] Allow to add traceability for the pets adopted.
-[ ] Allow to get donations in criptocurrencies
-[ ] Allow to get public information and statistics for the pets adopted, rescued and supported by people.
+- [ ] Allow to get data from Google Sheets.
+- [ ] Allow connect social networks
+- [ ] Allow to add traceability for the pets adopted.
+- [ ] Allow to get donations in criptocurrencies
+- [ ] Allow to get public information and statistics for the pets adopted, rescued and supported by people.
 
 
 ## Contributors
