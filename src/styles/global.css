@@ -13,12 +13,12 @@ body {
 
 html,
 body {
-  font-size: 10px;
+  font-size: 16px;
   box-sizing: border-box;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-family: "Pacifico", cursive;
 }
 
@@ -27,4 +27,8 @@ h1 {
   max-width: 86rem;
   margin: 0 auto;
   padding: 0 1rem;
+}
+
+header {
+    padding: 2rem 0;
 }

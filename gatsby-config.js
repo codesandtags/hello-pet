@@ -21,6 +21,16 @@ module.exports = {
         icon: "src/images/icon.png",
       },
     },
+    'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'material icons',
+          'roboto:300,400,500,700',
+        ],
+      },
+    },
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
