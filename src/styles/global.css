@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-image: url(../images/bg.svg);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: "Pacifico", cursive;
+}
+
+.container {
+  width: 100%;
+  max-width: 86rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

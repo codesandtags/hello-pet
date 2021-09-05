@@ -4,6 +4,7 @@ module.exports = {
     title: "Hello Pet",
   },
   plugins: [
+    "gatsby-plugin-postcss",
     "gatsby-plugin-gatsby-cloud",
     "gatsby-plugin-image",
     {
