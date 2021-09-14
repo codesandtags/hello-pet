@@ -1,0 +1,77 @@
+{
+	"foundations":[
+		{	
+			"id": 1,
+			"nameFoundation":"fundacion animal love",
+			"mision":"contribuir en ayudar a peluditos , para que encuentren un hogar y les brinden mucho amor,ya que son angeles terrenales. ",
+			"history":"nuestra fundacion nace , gracias a nuestra veterinaria, quien inicia con esta bella obra.",
+			"contactname":"maria sofia gonzalez",
+			"accountsforadoption":[
+				{
+					"bancolombia": "b-032567489 "
+				},
+				{
+					"bancopopular": "974564"
+				}
+			],
+			"socialnetworks":[
+				{
+					"instagram": "https://www.instagram.com/fundacion_animalove/",
+					"whatsapp":"https://api.whatsapp.com/send?phone=573123526305&text=Bienvenido%20a%20Animalove,%20Con%20gusto%20lo%20atenderemos",
+					"website":"https://linktr.ee/FundacionAnimalove",
+					"email":"sofiaanimallove@gmail.com"
+				}
+			],
+			"pets":[
+				{
+					"id": 1,
+					"type": "gato",
+					"gender": "hembra" ,
+					"name": "brisa",
+					"age": "24 meses",
+					"color": "negro con blanco",
+					"history": "esta gatica fue encontrada en un lugar abandonado de la ciudad,donde personas 'humanas' ,contribuyeron para llegar a ella",
+					"mainphoto":"https://www.gatosexoticosweb.com/wp-content/uploads/2019/09/bicolor-blanco-y-negro.jpg",
+					"photogallery":[
+						{
+							"url":"https://www.gatosexoticosweb.com/wp-content/uploads/2019/09/bicolor-blanco-y-negro.jpg"
+						},
+						{
+							"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAK_H8rhKPnYj9I7ig6Y063oCJKb1SiSynEw19OuDeBDOCdq_y1rqQ0AxEf0A7HlVF_gU&usqp=CAU"
+						}
+					],
+					"dewormed":"true",
+					"sterilized": "false",
+					"freeviral": "negative",
+					"qualities": "cariñosa,independiente,inteligente,soñadora",
+					"specialneeds": "esta gatica necesita una dieta especial de alimento",
+					"outstanding": "true"
+				},
+				{
+					"id": 2,
+					"type": "perro",
+					"gender":"macho" ,
+					"name": "bruno",
+					"age":"9 meses",
+					"color": "blanco con cafe",
+					"history":"A este perrito su dueño lo abandono cerca a nuestras instalaciones",
+					"mainphoto": "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/609cf90e5bafe89d454761e7/cachorro-jack-russell_0.jpg",
+					"photogallery":[
+						{
+							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-las-manchas-marrones-en-la-cara-que-se-sienta-un-piso-madera-contra-una-pared-gris-139366283.jpg"
+						},
+						{
+							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
+						}
+					],
+					"dewormed":"true",
+					"sterilized":"true",
+					"freeviral": "positive",
+					"qualities":"jugueton, cariñoso,sociable",
+					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
+					"outstanding": "false"
+				}
+			]
+		}
+	]
+}
