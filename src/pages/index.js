@@ -1,37 +1,49 @@
 import * as React from "react";
+import { useEffect, useState } from "react";
 
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import Card from "../components/card/Card";
 
+const url = 'https://script.googleusercontent.com/macros/echo?user_content_key=BGaIk38B9w37zbPgmuf399g4kAKxS3wwIm4J5f2P1bRXlaV5l9tb6JVx6lk35D5Je9k-TXDJup-hksU-y1-e7RMjwgJ_NiS7m5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnAHW9epDnRqvuz1KboN1QlsMQGc9A-Z0kM-ZBGt2kTa5v2RltZoAAJbEYgY9KZgSISxQwuiC3AarT6ZYo_va6BtqKkbQvGZTq9z9Jw9Md8uu&lib=MDS5x9PieDIg7VDrqWsBVAXY7dDVGhk4I';
+
 
 // markup
 const IndexPage = () => {
+
+  const [data, setData] = useState([]);
+  
+  useEffect(() => {
+    fetch(url)
+    .then(res => res.json()) 
+    .then(data => {
+      setData(data);
+    });
+  }, [])
+
+  const getCards = () => {
+    if (data && data.length > 0) {
+      return data.map(element => {
+        return <Card 
+            name={`${element.name} ${element.lastName}`}
+            picture={element.picture}
+          />
+      })
+    }
+
+    <div>
+      There is not content here
+    </div>
+  }
+  
+
   return (
     <>
       <div className="container">
         <title>Hello Pet</title>
         <Header />
-        <main class="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2">
-          <Card 
-            name="Nala Maria"
-            picture="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2F0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60"
-          />
-
-          <Card 
-            name="Don Pancho"
-            picture="https://images.unsplash.com/photo-1533743983669-94fa5c4338ec?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1283&q=80"
-          />
-
-          <Card 
-            name="Lucas Ignacio"
-            picture="https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-          />
-
-          <Card 
-            name="Pablo Emilio"
-            picture="https://images.unsplash.com/photo-1501820488136-72669149e0d4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-          />
+        <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2">
+          { getCards() }
         </main>
       </div>   
       <Footer /> 
