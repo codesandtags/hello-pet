@@ -1,11 +1,22 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
 
-import Header from "../components/header/Header";
-import Footer from "../components/footer/Footer";
 import Card from "../components/card/Card";
+import LetSuspense from "../components/suspense/LetSuspense";
 
 const url = "../../model/foundation.json";
+
+const Header = React.lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import("../components/header/Header")), 3000);
+  });
+});
+
+const Footer = React.lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => resolve(import("../components/footer/Footer")), 3000);
+  });
+});
 
 // markup
 const IndexPage = () => {
@@ -43,14 +54,16 @@ const IndexPage = () => {
 
   return (
     <>
-      <div className="container">
-        <title>Hello Pet</title>
-        <Header />
-        <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2">
-          {getCards()}
-        </main>
-      </div>
-      <Footer />
+      <React.Suspense fallback={<LetSuspense />}>
+        <div className="container">
+          <title>Hello Pet</title>
+          <Header />
+          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2">
+            {getCards()}
+          </main>
+        </div>
+        <Footer />
+      </React.Suspense>
     </>
   );
 };
