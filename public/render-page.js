@@ -3661,7 +3661,7 @@ var plugins = [{
     "remarkPlugins": [],
     "rehypePlugins": [],
     "mediaTypes": ["text/markdown", "text/x-markdown"],
-    "root": "/Users/alejaocampo/Documents/hello-pet"
+    "root": "/Users/alejaocampo/hello-pet"
   }
 }];
 /* global plugins */
@@ -40886,24 +40886,24 @@ if (false) {} else {
 /***/ }),
 
 /***/ "react-dom/server":
-/*!******************************************************************************************!*\
-  !*** external "/Users/alejaocampo/Documents/hello-pet/node_modules/react-dom/server.js" ***!
-  \******************************************************************************************/
+/*!********************************************************************************!*\
+  !*** external "/Users/alejaocampo/hello-pet/node_modules/react-dom/server.js" ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/alejaocampo/Documents/hello-pet/node_modules/react-dom/server.js");
+module.exports = require("/Users/alejaocampo/hello-pet/node_modules/react-dom/server.js");
 
 /***/ }),
 
 /***/ "react":
-/*!*************************************************************************************!*\
-  !*** external "/Users/alejaocampo/Documents/hello-pet/node_modules/react/index.js" ***!
-  \*************************************************************************************/
+/*!***************************************************************************!*\
+  !*** external "/Users/alejaocampo/hello-pet/node_modules/react/index.js" ***!
+  \***************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("/Users/alejaocampo/Documents/hello-pet/node_modules/react/index.js");
+module.exports = require("/Users/alejaocampo/hello-pet/node_modules/react/index.js");
 
 /***/ }),
 

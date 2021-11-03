@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({name, picture}) => {
+const Card = ({ name, picture }) => {
   return (
     <div className="w-80 bg-white rounded-lg py-2 shadow-lg hover:shadow-2xl transition duration-500 transform hover:scale-105 cursor-pointer">
       <div className="flex items-center mb-2 space-x-4">
@@ -32,10 +32,7 @@ const Card = ({name, picture}) => {
           </svg>
         </span>
       </div>
-      <img
-        src={picture}
-        alt=""
-      />
+      <img src={picture} alt="" />
       <div className="flex justify-between px-10 py-6">
         <span>
           <svg
