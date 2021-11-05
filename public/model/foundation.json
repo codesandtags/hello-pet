@@ -2,10 +2,10 @@
 	"foundationName":[
 		{	
 			"id": 1,
-			"nameFoundation":"fundacion animal love",
-			"mission":"contribuir en ayudar a peluditos , para que encuentren un hogar y les brinden mucho amor,ya que son angeles terrenales. ",
-			"history":"nuestra fundacion nace , gracias a nuestra veterinaria, quien inicia con esta bella obra.",
-			"contactName":"maria sofia gonzalez",
+			"nameFoundation":"Fundacion animal love",
+			"mission":"Contribuir en ayudar a peluditos , para que encuentren un hogar y les brinden mucho amor,ya que son angeles terrenales. ",
+			"history":"Nuestra fundacion nace , gracias a nuestra veterinaria, quien inicia con esta bella obra.",
+			"contactName":"Maria Sofia Gonzalez",
 			"adoptionAccounts":[
 				{
 					"bancolombia": "b-032567489 "
@@ -25,13 +25,13 @@
 			"pets":[
 				{
 					"id": 1,
-					"type": "gato",
-					"gender": "hembra" ,
-					"name": "brisa",
+					"type": "Gato",
+					"gender": "Hembra" ,
+					"name": "Brisa",
 					"age": "24 meses",
-					"color": "negro con blanco",
-					"history": "esta gatica fue encontrada en un lugar abandonado de la ciudad, donde personas 'humanas' ,contribuyeron para llegar a ella",
-					"mainPhoto":"https://www.gatosexoticosweb.com/wp-content/uploads/2019/09/bicolor-blanco-y-negro.jpg",
+					"color": "Negro con blanco",
+					"history": "Esta gatica fue encontrada en un lugar abandonado de la ciudad, donde personas 'humanas' ,contribuyeron para llegar a ella",
+					"mainPhoto":"https://cdn.pixabay.com/photo/2018/09/09/14/29/cat-3664701_960_720.jpg",
 					"gallery":[
 						{
 							"url":"https://www.gatosexoticosweb.com/wp-content/uploads/2019/09/bicolor-blanco-y-negro.jpg"
@@ -40,9 +40,9 @@
 							"url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAK_H8rhKPnYj9I7ig6Y063oCJKb1SiSynEw19OuDeBDOCdq_y1rqQ0AxEf0A7HlVF_gU&usqp=CAU"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized": false,
-					"noVirals": "negative",
+					"noVirals": "Negativo",
 					"qualities": "cariñosa,independiente,inteligente,soñadora",
 					"specialNeeds": "esta gatica necesita una dieta especial de alimento",
 					"highlighted": true
@@ -50,12 +50,12 @@
 				{
 					"id": 2,
 					"type": "perro",
-					"gender":"macho" ,
-					"name": "bruno",
+					"gender":"Macho" ,
+					"name": "Bruno",
 					"age":"9 meses",
-					"color": "blanco con cafe",
+					"color": "Blanco con cafe",
 					"history":"A este perrito su dueño lo abandono cerca a nuestras instalaciones",
-					"mainPhoto": "https://estaticos.muyinteresante.es/media/cache/1140x_thumb/uploads/images/gallery/609cf90e5bafe89d454761e7/cachorro-jack-russell_0.jpg",
+					"mainPhoto": "https://i.pinimg.com/564x/77/76/da/7776dadb6c744a07727ba4d293c4b334.jpg",
 					"gallery":[
 						{
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-las-manchas-marrones-en-la-cara-que-se-sienta-un-piso-madera-contra-una-pared-gris-139366283.jpg"
@@ -64,20 +64,20 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"No desparasitado",
 					"sterilized":true,
-					"noVirals": "positive",
-					"qualities":"jugueton, cariñoso,sociable",
+					"noVirals": "Positivo",
+					"qualities":"Juguetón, cariñoso,sociable",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": false
 				},
 				{
 					"id": 3,
-					"type": "perro",
-					"gender":"hembra" ,
-					"name": "atenea",
+					"type": "Perro",
+					"gender":"Hembra" ,
+					"name": "Atenea",
 					"age":"10 meses",
-					"color": "café con negro",
+					"color": "Café con negro",
 					"history":"Lo encontramos en un parque abandonado",
 					"mainPhoto": "https://misanimales.com/wp-content/uploads/2017/04/que-perro-deberias-adoptar.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe",
 					"gallery":[
@@ -88,20 +88,20 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized":true,
-					"noVirals": "negative",
-					"qualities":"sociable, alegre, gentil",
+					"noVirals": "Negativo",
+					"qualities":"Sociable, alegre, gentil",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": false
 				},
 				{
 					"id": 4,
-					"type": "perro",
-					"gender":"amarillo" ,
-					"name": "smiley",
+					"type": "Perro",
+					"gender":"Macho" ,
+					"name": "Smiley",
 					"age":"20 meses",
-					"color": "blanco con cafe",
+					"color": "Amarillo",
 					"history":"Su dueño lo dejo abandonado en un centro veterinario",
 					"mainPhoto": "http://nosinmiperro.es/wp-content/uploads/2017/03/Smiley-guia-perro-ciego.jpg",
 					"gallery":[
@@ -112,21 +112,21 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized":false,
-					"noVirals": "positive",
-					"qualities":"obediente, amigable, cariñoso",
+					"noVirals": "Positivo",
+					"qualities":"Obediente, amigable, cariñoso",
 					"specialneeds":"Necesita mucho ejercicio, buena alimentacion",
 					"highlighted": true
 				},
 				{
 					"id": 5,
-					"type": "gato",
-					"gender":"hembra" ,
-					"name": "greta",
+					"type": "Gato",
+					"gender":"Hembra" ,
+					"name": "Greta",
 					"age":"11 meses",
-					"color": "gris con negro",
-					"history":"esta gatica , uno de nuestros empleados se la encontro cerca a su casa",
+					"color": "Gris con negro",
+					"history":"Esta gatica , uno de nuestros empleados se la encontro cerca a su casa",
 					"mainPhoto": "https://imgmedia.wapa.pe/650x368/wapa/migration/imagen/2019/06/08/noticia-1560031442-conoce-las-razas-de-gatos-mas-carinosos-del-planeta-angora-ragdoll-gato-exotico.png",
 					"gallery":[
 						{
@@ -136,20 +136,20 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized":true,
-					"noVirals": "positive",
-					"qualities":"jugueton, cariñoso,sociable, gentil",
+					"noVirals": "Negativo",
+					"qualities":"Jugueton, cariñoso,sociable, gentil",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": true
 				},
 				{
 					"id": 6,
-					"type": "perro",
-					"gender":"hembra" ,
-					"name": "alegria",
+					"type": "Perro",
+					"gender":"Hembra" ,
+					"name": "Alegria",
 					"age":"14 meses",
-					"color": "amarillo",
+					"color": "Amarillo",
 					"history":"A este perrito su dueño lo abandono cerca a nuestras instalaciones",
 					"mainPhoto": "https://www.kienyke.com/sites/default/files/wp-content/uploads/2017/06/Perro.jpg",
 					"gallery":[
@@ -160,21 +160,21 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized":true,
-					"noVirals": "positive",
-					"qualities":"tranquila,alegre,sociable",
+					"noVirals": "Negativo",
+					"qualities":"Tranquila,alegre,sociable",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": false
 				},
 				{
 					"id": 7,
-					"type": "gato",
-					"gender":"macho" ,
-					"name": "charlie",
+					"type": "Gato",
+					"gender":"Macho" ,
+					"name": "Charlie",
 					"age":"8 meses",
-					"color": "blanco con cafe y amarillo",
-					"history":"su dueño por su situacion economica , decidio entregarnosla",
+					"color": "Blanco con cafe y amarillo",
+					"history":"Su dueño por su situacion economica , decidio entregarnosla",
 					"mainPhoto": "https://i.pinimg.com/564x/ba/ff/3c/baff3c8a42382a37beae23c1401d7009.jpg",
 					"gallery":[
 						{
@@ -184,20 +184,20 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"No desparasitado",
 					"sterilized":false,
-					"noVirals": "positive",
-					"qualities":"cariñosa, tranquilo, amigable",
+					"noVirals": "Positivo",
+					"qualities":"Cariñosa, tranquilo, amigable",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": false
 				},
 				{
 					"id": 8,
-					"type": "perro",
-					"gender":"macho" ,
-					"name": "coco",
+					"type": "Perro",
+					"gender":"Macho" ,
+					"name": "Coco",
 					"age":"19 meses",
-					"color": "amarillo",
+					"color": "Amarillo",
 					"history":"A este perrito nos lo encontramos en un parque abandonado",
 					"mainPhoto": "https://images.clarin.com/2019/10/18/el-caniche-ya-es-un___IewwWnmN_720x0__1.jpg",
 					"gallery":[
@@ -208,22 +208,22 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"Desparasitado",
 					"sterilized":true,
-					"noVirals": "positive",
-					"qualities":"jugueton, cariñoso,gentil,sociable",
+					"noVirals": "Positivo",
+					"qualities":"Jugueton, cariñoso,gentil,sociable",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": true
 				},
 				{
 					"id": 9,
-					"type": "gato",
-					"gender":"hembra" ,
-					"name": "iris",
+					"type": "Gato",
+					"gender":"Hembra" ,
+					"name": "Iris",
 					"age":"10 meses",
-					"color": "negro",
-					"history":"esta gatica su dueña ya no la podia tener y decidio entregarnosla.",
-					"mainPhoto": "https://cf.ltkcdn.net/gatos/images/orig/242328-1600x1030-gato-negro.jpg",
+					"color": "Negro",
+					"history":"Esta gatica su dueña ya no la podia tener y decidio entregarnosla.",
+					"mainPhoto": "https://www.euroresidentes.com/hogar/mascotas/wp-content/uploads/sites/5/2016/10/gatos-negros-datos-interesantes-euroresidentes.jpg",
 					"gallery":[
 						{
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-las-manchas-marrones-en-la-cara-que-se-sienta-un-piso-madera-contra-una-pared-gris-139366283.jpg"
@@ -232,10 +232,10 @@
 							"url":"https://thumbs.dreamstime.com/z/perrito-de-jack-russell-terrier-con-los-soportes-las-manchas-marrones-en-el-piso-madera-contra-la-perspectiva-una-pared-gris-139367183.jpg"
 						}
 					],
-					"dewormed":true,
+					"dewormed":"No desparasitado",
 					"sterilized":true,
-					"noVirals": "positive",
-					"qualities":"cariñosa,gentil,amorosa",
+					"noVirals": "Positivo",
+					"qualities":"Cariñosa,gentil,amorosa",
 					"specialneeds":"Necesita mucho ejercicio, ya que como es un cachorro debo fortalecer sus patitas",
 					"highlighted": true
 				}	

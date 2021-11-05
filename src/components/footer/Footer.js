@@ -69,8 +69,8 @@ const Footer = () => {
             className="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col
       md:flex-row max-w-6xl"
           >
-            <div className="mt-2">
-              © Copyright 2021 Hello Pet - Made with ♥️{" "}
+            <div className="mt-2 ">
+              © Copyright 2021 Hello Pet - Made with ♥️
             </div>
             <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
               <a href="/#" className="w-6 mx-1"></a>
