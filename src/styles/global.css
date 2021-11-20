@@ -19,12 +19,15 @@ body {
 
 h1 {
   font-size: 3rem;
-  font-family: "Pacifico", cursive;
 }
 
 h2 {
-  font-family: "Pacifico", cursive;
   font-size: 2rem;
+}
+
+h1,
+h2 {
+  font-family: "Pacifico", cursive;
 }
 
 .container {

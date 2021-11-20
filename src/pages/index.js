@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 
 import Card from "../components/card/Card";
 import LetSuspense from "../components/suspense/LetSuspense";
+import Error from "../components/Errors/Error";
 
 const url = "../../model/foundation.json";
 
@@ -21,24 +22,38 @@ const Footer = React.lazy(() => {
 // markup
 const IndexPage = () => {
   const [data, setData] = useState([]);
+  const [status, setStatus] = useState(200);
 
   useEffect(() => {
     fetch(url)
       .then((res) => {
-        console.log(res);
-        return res.json();
+        if (res.status === 200) {
+          return res.json();
+        } else if (res.status === 404) {
+          setStatus(404);
+        } else {
+          setStatus(500);
+        }
       })
-      .then(function (data) {
-        console.log(data);
+      .then((data) => {
         const { foundationName } = data;
         setData(foundationName);
+        if (!foundationName[0].pets || foundationName[0].pets.length === 0) {
+          console.log(status, "hola");
+          setStatus(404);
+        }
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+        setStatus(500);
       });
   }, []);
 
   const getCards = () => {
     if (data && data.length > 0) {
       return data[0].pets.map((element) => {
-        console.log(element, "hola element");
+        console.log(element.id, "hola elememto");
         return (
           <Card
             key={element.id}
@@ -48,11 +63,11 @@ const IndexPage = () => {
             age={element.age}
             noVirals={element.noVirals}
             dewormed={element.dewormed}
+            id={element.id}
           />
         );
       });
     }
-
     <div>There is not content here</div>;
   };
 
@@ -62,8 +77,10 @@ const IndexPage = () => {
         <div className="container">
           <title>Hello Pet</title>
           <Header />
-          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2 md:grid-cols-2 md:grid sm:grid sm:grid-cols-1">
+          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2 md:grid-cols-2 md:grid sm:grid sm:grid-cols-1 min-h-screen">
             {getCards()}
+            {status === 404 && <Error message="No se encontraron mascotas" />}
+            {status === 500 && <Error message="Error en el servidor" />}
           </main>
         </div>
         <Footer />

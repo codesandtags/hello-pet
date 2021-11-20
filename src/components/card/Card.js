@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "gatsby";
 
-const Card = ({ name, picture, gender, age, noVirals, dewormed }) => {
+const Card = ({ name, picture, gender, age, noVirals, dewormed, id }) => {
+  console.log(id, "hola card");
   return (
-    <section className="text-gray-600 body-font">
-      <div className="container px-5 py-24 mx-auto max-w-7x1">
-        <div className="flex flex-wrap -m-4 sm:justify-center">
-          <div className=" lg:w-4/5 md:w-4/5 sm:w-1/2 p-4 hover:shadow-2xl sm:flex sm:justify-center">
-            <div className="bg-white p-6 ransition duration-500 transform hover:scale-105 cursor-pointer">
+    <section className="text-gray-600 body-font  ">
+      <div className="container px-5 py-24 mx-auto max-w-7x1 ">
+        <div className="flex flex-wrap -m-4 sm:justify-center sm:flex sm:items-center ">
+          <div className=" lg:w-4/5 md:w-4/5 sm:w-1/2  xs:w-full p-4  sm:flex sm:justify-center">
+            <div className="bg-white p-6 ransition duration-500 transform  xs:w-full hover:scale-105 cursor-pointer">
               <img
                 className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72  rounded w-full object-cover object-center mb-6"
                 src={picture}
@@ -24,9 +26,11 @@ const Card = ({ name, picture, gender, age, noVirals, dewormed }) => {
               <p className="leading-relaxed text-base">Virales: {noVirals}</p>
               <p className="leading-relaxed text-base">{dewormed}</p>
               <div className="flex justify-between px-10 py-6 md:justify-center">
-                <button className="bg-transparent hover:bg-violet text-violet font-semibold hover:text-white py-2 px-4 border border-violet hover:border-transparent rounded mr-4 md:w-1/2 md:text-xs md:w-4/5">
-                  Adoptar
-                </button>
+                <Link to={`/${id}/`}>
+                  <button className="bg-transparent hover:bg-violet text-violet font-semibold hover:text-white py-2 px-4 border border-violet hover:border-transparent rounded mr-4 md:w-1/2 md:text-xs md:w-4/5">
+                    Adoptar
+                  </button>
+                </Link>
                 <button className="bg-violet hover:bg-transparent text-white font-semibold hover:text-violet py-2 px-4 border border-violet hover:border-violet rounded mr-4 md:w-1/2 md:text-xs md:w-4/5 ">
                   Apadrinar
                 </button>
