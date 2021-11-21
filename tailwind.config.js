@@ -18,7 +18,7 @@ module.exports = {
       // => @media (max-width: 1023px) { ... }
 
       md: { max: "959px" },
-      // => @media (max-width: 767px) { ... }
+      // => @media (max-width: 959px) { ... }
 
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
@@ -28,7 +28,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      objectPosition: ["odd", "even", "first"],
+    },
   },
   plugins: [],
 };

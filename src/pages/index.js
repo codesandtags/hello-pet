@@ -39,10 +39,8 @@ const IndexPage = () => {
         const { foundationName } = data;
         setData(foundationName);
         if (!foundationName[0].pets || foundationName[0].pets.length === 0) {
-          console.log(status, "hola");
           setStatus(404);
         }
-        console.log(data);
       })
       .catch((error) => {
         console.log(error);
@@ -53,7 +51,6 @@ const IndexPage = () => {
   const getCards = () => {
     if (data && data.length > 0) {
       return data[0].pets.map((element) => {
-        console.log(element.id, "hola elememto");
         return (
           <Card
             key={element.id}
@@ -77,7 +74,7 @@ const IndexPage = () => {
         <div className="container">
           <title>Hello Pet</title>
           <Header />
-          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3 p-2 md:grid-cols-2 md:grid sm:grid sm:grid-cols-1 min-h-screen">
+          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-2 p-2  xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-1 2xl:grid md:grid md:grid-cols-1  2xl:grid-cols-3 min-h-screen">
             {getCards()}
             {status === 404 && <Error message="No se encontraron mascotas" />}
             {status === 500 && <Error message="Error en el servidor" />}

@@ -1,16 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
+import "./card.css";
 
 const Card = ({ name, picture, gender, age, noVirals, dewormed, id }) => {
-  console.log(id, "hola card");
   return (
-    <section className="text-gray-600 body-font  ">
+    <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto max-w-7x1 ">
-        <div className="flex flex-wrap -m-4 sm:justify-center sm:flex sm:items-center ">
-          <div className=" lg:w-4/5 md:w-4/5 sm:w-1/2  xs:w-full p-4  sm:flex sm:justify-center">
-            <div className="bg-white p-6 ransition duration-500 transform  xs:w-full hover:scale-105 cursor-pointer">
+        <div className="flex flex-wrap -m-4 sm:justify-center sm:flex md:justify-center md:items-center  sm:items-center ">
+          <div className=" lg:w-4/5 md:w-4/5 sm:w-1/2 xl:w-4/5  xs:w-full p-4  sm:flex sm:justify-center">
+            <div className="bg-white p-6 ransition duration-500 transform    xs:w-full hover:scale-105 cursor-pointer">
               <img
-                className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72  rounded w-full object-cover object-center mb-6"
+                className="lg:h-60 xl:h-56 md:h-64 sm:h-72 xs:h-72 h-72   md:object-top md:h-80 rounded w-full object-cover object-center mb-6"
                 src={picture}
                 alt={name}
               />
@@ -31,9 +31,11 @@ const Card = ({ name, picture, gender, age, noVirals, dewormed, id }) => {
                     Adoptar
                   </button>
                 </Link>
-                <button className="bg-violet hover:bg-transparent text-white font-semibold hover:text-violet py-2 px-4 border border-violet hover:border-violet rounded mr-4 md:w-1/2 md:text-xs md:w-4/5 ">
-                  Apadrinar
-                </button>
+                <Link to={`/${id}/`}>
+                  <button className="bg-violet hover:bg-transparent text-white font-semibold hover:text-violet py-2 px-4 border border-violet hover:border-violet rounded mr-4 md:w-1/2 md:text-xs md:w-4/5 ">
+                    Apadrinar
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

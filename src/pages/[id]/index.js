@@ -23,12 +23,9 @@ const PetId = ({ id }) => {
           (pet) => pet.id === Number(id)
         );
         setPet(findPet);
-        console.log(findPet, "SOY FELIZ");
         if (!findPet || typeof findPet === undefined) {
-          console.log(handleError, "hola");
           setHandleError(404);
         }
-        console.log(findPet, "holis");
       })
       .catch((error) => {
         console.log(error);
@@ -46,7 +43,7 @@ const PetId = ({ id }) => {
             </div>
             <button
               onClick={() => navigate("/")}
-              className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0"
+              className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0 xs:text-xs"
             >
               Volver al inicio
             </button>
