@@ -1,6 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-[id]-index-js",
-    "path": "/:id/",
-    "result": {"pageContext":{"matchPath":"/:id"}},
-    "staticQueryHashes": [],
-    "matchPath": "/:id"}
