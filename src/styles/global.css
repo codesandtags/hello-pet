@@ -40,7 +40,3 @@ h2 {
 header {
   padding: 2rem 0;
 }
-
-main section div img:nth-child(2n) {
-  object-position: left;
-}
