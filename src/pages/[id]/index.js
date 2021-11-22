@@ -37,16 +37,18 @@ const PetId = ({ id }) => {
     <div className="container">
       {pet && (
         <main className="bg-gray-100 mx-auto space-y-2  min-h-screen m-20">
-          <div className="flex m-20 sm:m-14">
-            <div className=" flex-1 flex items-center justify-center m-7">
+          <div className="flex flex-col m-20 sm:m-14">
+            <div className="flex justify-end">
+              <button
+                onClick={() => navigate("/")}
+                className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0 xs:text-xs sm:mt-0 sm:w-full"
+              >
+                Volver al inicio
+              </button>
+            </div>
+            <div className=" flex-1 flex items-center justify-center m-7 sm:mt-4">
               <h2 className="text-7xl">{pet.name}</h2>
             </div>
-            <button
-              onClick={() => navigate("/")}
-              className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0 xs:text-xs"
-            >
-              Volver al inicio
-            </button>
           </div>
           <div className="pl-14 md:pl-9">
             <div className="flex flex-wrap md:w-3/5 sm:w-4/5">

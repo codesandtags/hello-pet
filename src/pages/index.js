@@ -51,18 +51,7 @@ const IndexPage = () => {
   const getCards = () => {
     if (data && data.length > 0) {
       return data[0].pets.map((element) => {
-        return (
-          <Card
-            key={element.id}
-            name={element.name}
-            picture={element.mainPhoto}
-            gender={element.gender}
-            age={element.age}
-            noVirals={element.noVirals}
-            dewormed={element.dewormed}
-            id={element.id}
-          />
-        );
+        return <Card key={element.id} {...element} />;
       });
     }
     <div>There is not content here</div>;
