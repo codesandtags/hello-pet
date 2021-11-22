@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhello_pet=self.webpackChunkhello_pet||[]).push([[682],{5518:function(e,t,l){l.r(t);var n=l(7294),a={color:"#232129",padding:96,fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=function(){return n.createElement("main",{style:a},n.createElement("title",null,"About"),n.createElement("h1",null,"About"))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-3151e7d2e881711e255d.js.map

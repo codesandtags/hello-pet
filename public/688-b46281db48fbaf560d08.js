@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkhello_pet=self.webpackChunkhello_pet||[]).push([[688],{2688:function(e,l,t){t.r(l);var n=t(7294);l.default=function(){return n.createElement("header",{className:"site-home-header"},n.createElement("div",null,n.createElement("h1",null,"Hello Pet")))}}}]);
+//# sourceMappingURL=688-b46281db48fbaf560d08.js.map
