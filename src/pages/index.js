@@ -1,5 +1,6 @@
 import * as React from "react";
 import { useEffect, useState } from "react";
+import { Suspense, lazy } from "@uploadcare/client-suspense";
 
 import Card from "../components/card/Card";
 import LetSuspense from "../components/suspense/LetSuspense";
@@ -7,13 +8,13 @@ import Error from "../components/Errors/Error";
 
 const url = "../../model/foundation.json";
 
-const Header = React.lazy(() => {
+const Header = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(import("../components/header/Header")), 3000);
   });
 });
 
-const Footer = React.lazy(() => {
+const Footer = lazy(() => {
   return new Promise((resolve) => {
     setTimeout(() => resolve(import("../components/footer/Footer")), 3000);
   });
@@ -59,7 +60,7 @@ const IndexPage = () => {
 
   return (
     <>
-      <React.Suspense fallback={<LetSuspense />}>
+      <Suspense fallback={<LetSuspense />}>
         <div className="container">
           <title>Hello Pet</title>
           <Header />
@@ -70,7 +71,7 @@ const IndexPage = () => {
           </main>
         </div>
         <Footer />
-      </React.Suspense>
+      </Suspense>
     </>
   );
 };
