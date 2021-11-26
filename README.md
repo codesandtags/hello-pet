@@ -14,7 +14,7 @@ I want to connect those pets fundations and get more people involved to change t
 
 ## Features
 
-- [ ] Allow to get data from Google Sheets.
+- ✅ Allow to get data from Google Sheets.
 - [ ] Allow connect social networks
 - [ ] Allow to add traceability for the pets adopted.
 - [ ] Allow to get donations in criptocurrencies
