@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Atla5_oWuRh6HCwiGyqB" name="1. system contex">
-        <mxGraphModel dx="810" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="968" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -97,7 +97,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="4zViq0FL2HG71lOOgOss" name="2. architecture attributes">
-        <mxGraphModel dx="1418" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="807" dy="-577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="R-j8VJNbKi9q80MB7HrC-0"/>
                 <mxCell id="R-j8VJNbKi9q80MB7HrC-1" parent="R-j8VJNbKi9q80MB7HrC-0"/>
@@ -156,7 +156,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="7nxB8m1irwHZ4DPLPueb" name="3. data model">
-        <mxGraphModel dx="945" dy="1045" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="968" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="wIepYjFTxyvDumONBDBw-0"/>
                 <mxCell id="wIepYjFTxyvDumONBDBw-1" parent="wIepYjFTxyvDumONBDBw-0"/>
@@ -170,7 +170,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="tzV6_ee-M2NWyw1jrrdG" name="4. architecture decisions">
-        <mxGraphModel dx="567" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="668" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="NzEGGFp0kGVylSyA1O6y-0"/>
                 <mxCell id="NzEGGFp0kGVylSyA1O6y-1" parent="NzEGGFp0kGVylSyA1O6y-0"/>
@@ -195,10 +195,10 @@
                 <mxCell id="2YSWGm60TfaEKXAwqPCL-6" value="Build front-end with Gatsby" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-5">
                     <mxGeometry width="160" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="2YSWGm60TfaEKXAwqPCL-7" value="- Is a static site generator&lt;br&gt;- Is great for SEO&lt;br&gt;- No need to use a server&lt;br&gt;- The site can be published on gatsby.com&lt;br&gt;- There are a lot of bulitin plugins" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-5">
+                <mxCell id="2YSWGm60TfaEKXAwqPCL-7" value="- Is a SSG: static site generator&lt;br&gt;- Is great for SEO&lt;br&gt;- No need to use a server&lt;br&gt;- The site can be published on gatsby.com&lt;br&gt;- There are a lot of bulitin plugins" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-5">
                     <mxGeometry x="160" width="260" height="130" as="geometry"/>
                 </mxCell>
-                <mxCell id="2YSWGm60TfaEKXAwqPCL-8" value="- Learning curve&lt;br&gt;- Incompatibilities with request or ui libraries" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-5">
+                <mxCell id="2YSWGm60TfaEKXAwqPCL-8" value="- Learning curve&lt;br&gt;- Incompatibilities with request or ui libraries&lt;br&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;align=left;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-5">
                     <mxGeometry x="420" width="160" height="130" as="geometry"/>
                 </mxCell>
                 <mxCell id="2YSWGm60TfaEKXAwqPCL-9" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2YSWGm60TfaEKXAwqPCL-0">
@@ -217,7 +217,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="fCxo0rVTtz49dbH22N-1" name="5. design">
-        <mxGraphModel dx="567" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1138" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="_TaTenIeqqxmwQP_ny3T-0"/>
                 <mxCell id="_TaTenIeqqxmwQP_ny3T-1" parent="_TaTenIeqqxmwQP_ny3T-0"/>
