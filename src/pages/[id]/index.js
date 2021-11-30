@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby-link";
-import Error from "../../components/Errors/Error";
+import Error from "../../components/errors/Error";
 
 const PetId = ({ id }) => {
   const [pet, setPet] = useState(undefined);
@@ -41,7 +41,7 @@ const PetId = ({ id }) => {
             <div className="flex justify-end">
               <button
                 onClick={() => navigate("/")}
-                className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0 xs:text-xs sm:mt-0 sm:w-full sm:p-3"
+                className="px-24 bg-violet hover:bg-transparent text-white font-semibold hover:text-violet  border border-violet hover:border-violet rounded  md:text-lg w-15 mt-14 h-8 md:w-1/4 md:h-1/4 md:px-0 xs:text-xs sm:mt-0 sm:w-full sm:p-3 2xl:mt-4 xl:mt-4 lg:mt-4 md:mt-4"
               >
                 Volver al inicio
               </button>
@@ -97,13 +97,13 @@ const PetId = ({ id }) => {
                 return (
                   <div
                     key={id}
-                    className="mt-12 flex flex-row justify-center items-center"
+                    className="mt-12 flex flex-row justify-center items-center "
                   >
                     <img
                       src={element.url}
                       width="450"
                       height="450"
-                      className="sm:w-4/5 sm:h-4/5"
+                      className="sm:w-4/5 sm:h-4/5 2xl:w-3/5 xl:w-3/5 lg:w-3/5 "
                       alt={element.alt}
                     />
                   </div>
@@ -117,10 +117,10 @@ const PetId = ({ id }) => {
               </p>
             </div>
             <div className="py-14 flex">
-              <p className="text-2xl  sm:text-sl font-black md:w-4/5">
+              <p className="text-2xl  sm:text-sl font-black md:w-4/5 2xl:w-auto xl:w-auto lg:w-auto">
                 Necesidades especiales:
               </p>
-              <p className="text-2xl  sm:text-xl ml-2">{pet.specialneeds}</p>
+              <p className="text-2xl  sm:text-xl ml-2 ">{pet.specialneeds}</p>
             </div>
           </div>
         </main>

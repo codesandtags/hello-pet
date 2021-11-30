@@ -4,7 +4,7 @@ import { Suspense, lazy } from "@uploadcare/client-suspense";
 
 import Card from "../components/card/Card";
 import LetSuspense from "../components/suspense/LetSuspense";
-import Error from "../components/Errors/Error";
+import Error from "../components/errors/Error";
 
 const url = "../../model/foundation.json";
 
@@ -64,7 +64,7 @@ const IndexPage = () => {
         <div className="container">
           <title>Hello Pet</title>
           <Header />
-          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-2 p-2  xl:grid xl:grid-cols-2 sm:grid sm:grid-cols-1 2xl:grid md:grid md:grid-cols-1  2xl:grid-cols-3 min-h-screen">
+          <main className="bg-gray-100 mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-2 p-2  xl:grid xl:grid-cols-3 xs:grid xs:grid-cols-1 sm:grid sm:grid-cols-1 2xl:grid 2xl:grid-cols-3 md:grid md:grid-cols-2   min-h-screen">
             {getCards()}
             {status === 404 && <Error message="No se encontraron mascotas" />}
             {status === 500 && <Error message="Error en el servidor" />}
