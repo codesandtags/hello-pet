@@ -2,9 +2,11 @@ import React, { useState, useEffect } from "react";
 import { navigate } from "gatsby-link";
 import Error from "../../components/errors/Error";
 
+
 const PetId = ({ id }) => {
   const [pet, setPet] = useState(undefined);
   const [handleError, setHandleError] = useState(200);
+
 
   useEffect(() => {
     fetch("../../model/foundation.json")
